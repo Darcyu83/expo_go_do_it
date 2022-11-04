@@ -11,7 +11,13 @@ export const AppStyles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    marginVertical: 8,
+    marginVertical: 4,
+  },
+  marginTop: {
+    marginTop: 16,
+  },
+  marginBottom: {
+    marginBottom: 16,
   },
   backgroundCover: {
     alignSelf: 'stretch',
@@ -24,6 +30,7 @@ export const AppStyles = StyleSheet.create({
   lightText: {
     color: 'white',
   },
+  errText: { color: 'red' },
   header: {
     fontSize: 24,
   },
