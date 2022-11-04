@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "expo_go_do_it",
+    "name": "go_do_it",
     "slug": "expo_go_do_it",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#FFFFFF",
+        "googleServicesFile": "./google-services.json"
+      },
+      "package": "com.sduy.godoit"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    }, 
+    "plugins": [
+      "@react-native-firebase/app"
+    ]
+   
   }
 }

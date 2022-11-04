@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "pkief.material-icon-theme",
+    "naumovs.color-highlight",
+    "formulahendry.auto-rename-tag",
+    "jundat95.react-native-snippet"
+  ]
+}
